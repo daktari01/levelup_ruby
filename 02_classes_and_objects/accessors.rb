@@ -4,7 +4,7 @@ class Spaceship
     # attr_writer :name # Provide Write access
     def cancel_launch
         destination = "" # Create local variable
-        self.destination = "" # Call the instance variable
+        self.destination = "" # Call the accessor variable
     end
 end
 
